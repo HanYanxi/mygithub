@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Into to DataVis-Homework 1 </title>
+    <style type="text/css">
+      h2{font-size: 15px;
+        color:black;
+      }
+      h1{
+        font-size: 20px;
+        font-weight: bold;
+        color:darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Into to DataVis-Homework 1:Han Lele,email:2323679658@qq.com,#47538562</h1>
+    <h2>Bar Charts</h2>
+    <svg width="500" height="500">
+      <!--Bar Chart-->
+      <style>
+        .type{
+          fill:orange;
+          stroke-width:1;
+          stroke:black;
+        }
+      </style>
+      <rect class="type" x="100" y="330" width="100" height="10"/>
+      <rect class="type" x="100" y="340" width="80" height="10"/>
+      <rect class="type" x="100" y="350" width="130" height="10"/>
+      <rect class="type" x="100" y="360" width="90" height="10"/>
+      <rect class="type" x="100" y="370" width="110" height="10"/>
+      <rect class="type" x="100" y="380" width="140" height="10"/>
+      <rect class="type" x="100" y="390" width="60" height="10"/>
+      <rect class="type" x="100" y="400" width="40" height="10"/>
+      <rect class="type" x="100" y="410" width="120" height="10"/>
+      <rect class="type" x="100" y="420" width="70" height="10"/>
+      <rect class="type" x="100" y="430" width="50" height="10"/>
+
+      <rect class="type" x="300" y="330" width="91.4" height="10"/>
+      <rect class="type" x="300" y="340" width="81.4" height="10"/>
+      <rect class="type" x="300" y="350" width="87.4" height="10"/>
+      <rect class="type" x="300" y="360" width="87.7" height="10"/>
+      <rect class="type" x="300" y="370" width="92.6" height="10"/>
+      <rect class="type" x="300" y="380" width="81" height="10"/>
+      <rect class="type" x="300" y="390" width="61.3" height="10"/>
+      <rect class="type" x="300" y="400" width="31" height="10"/>
+      <rect class="type" x="300" y="410" width="91.3" height="10"/>
+      <rect class="type" x="300" y="420" width="72.6" height="10"/>
+      <rect class="type" x="300" y="430" width="47.4" height="10"/>
+    </svg>
+    <h2>Line Charts</h2>   
+    <svg width="500px" height="500px" viewbox="0 0 200 200">
+      <!--Line Chart-->
+      <g transform="translate(0, 30) scale(1, -1)" fill="transparent" stoke="orange" stroke-width="1">
+
+        <path d="M0 10 L 1 8 L 2 13 L 3 9 L 4 11 L 5 14 L 6 6 L 7 4 L 8 12 L 9 7 L 10 5"/>
+      </g>
+
+      <g transform="translate(30, 30) scale(1, -1)" fill="transparent" stroke="black" stroke-width="1">
+        <line x1="0" y1="9.14" x2="1" y2="8.14"/>
+        <line x1="1" y1="8.14" x2="2" y2="8.74"/>
+        <line x1="2" y1="8.74" x2="3" y2="8.77"/>
+        <line x1="3" y1="8.77" x2="4" y2="9.26"/>
+        <line x1="4" y1="9.26" x2="5" y2="8.10"/>
+        <line x1="5" y1="8.10" x2="6" y2="6.13"/>
+        <line x1="6" y1="6.13" x2="7" y2="3.10"/>
+        <line x1="7" y1="3.10" x2="8" y2="9.13"/>
+        <line x1="8" y1="9.13" x2="9" y2="7.26"/>
+        <line x1="9" y1="7.26" x2="10" y2="4.74"/>
+
+      </g>
+    </svg>
+    <h2>Area Charts</h2>
+    <svg width="500px" height="500px" viewbox="0 0 500 500">
+      <!--Area Chart-->
+      <g transform="translate(0, 30) scale(1, -1)" fill="orange" stroke="transparent" stroke-width="1">
+
+        <path d="M0 0 L 0 10 L 1 8 L 2 13 L 3 9 L 4 11 L 5 14 L 6 6 L 7 4 L 8 12 L 9 7 L 10 5 L 11 0 Z"/>
+      </g>
+      <g transform="translate(30, 30) scale(1, -1)" fill="orange" stroke="transparent" stroke-width="1">
+        <path d="M0 0 L 0 9.14 L 1 8.14 L 2 8.74 L 3 8.77 L 4 9.26 L 5 8.10 L 6 6.13 L 7 3.10 L 8 9.13 L 9 7.26 L 10 4.74 L 11 0 Z"/> 
+
+      </g>
+    </svg>
+    <h2>Scatterplot</h2>
+    <svg width="500px" height="500px" viewbox="0 0 500 500">
+      <!--Scatterplot-->
+      <g transform="translate(0, 300) scale(10, -10)" fill="orange" stroke="transparent" stroke-width="1">
+        <circle cx="10" cy="9.14" r="0.5"/>
+        <circle cx="8" cy="8.14" r="0.5"/>
+        <circle cx="13" cy="8.74" r="0.5"/>  
+        <circle cx="9" cy="8.77" r="0.5"/>
+        <circle cx="11" cy="9.26" r="0.5"/>
+        <circle cx="14" cy="8.10" r="0.5"/>
+        <circle cx="6" cy="6.13" r="0.5"/>
+        <circle cx="4" cy="3.10" r="0.5"/>
+        <circle cx="12" cy="9.13" r="0.5"/>
+        <circle cx="7" cy="7.26" r="0.5"/>
+        <circle cx="5" cy="4.74" r="0.5"/>
+
+
+      </g>
+    </svg>
+
+
+  </body>
+</html>
